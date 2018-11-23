@@ -1,0 +1,19 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "300",
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showTabs": true,
+    "workbench.statusBar.visible": true,
+    "editor.renderWhitespace": "none",
+    "editor.fontLigatures": true,
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Palenight"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.CustomBrowser": "firefox",
+}

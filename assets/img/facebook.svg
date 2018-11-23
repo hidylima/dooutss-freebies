@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40">
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-170" y="-601" width="1280" height="780" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<path fill="none" stroke="rgb(255,255,255)" stroke-width="1" stroke-miterlimit="4" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"/>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect x="16" y="11" width="8.494957" height="17.982298" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<path fill="rgb(255,255,255)" stroke="none" transform="translate(16 11)" d="M5.65237 5.89219L5.65237 4.34274C5.65237 4.11019 5.66331 3.92993 5.68539 3.8027C5.70728 3.67529 5.75717 3.54991 5.83492 3.4261C5.91226 3.30243 6.03776 3.21704 6.21087 3.16971C6.38421 3.12239 6.61474 3.09872 6.90245 3.09872L8.4729 3.09872L8.4729 0L5.96215 0C4.50936 0 3.466 0.340068 2.83166 1.02003C2.19767 1.70034 1.88059 2.70224 1.88059 4.02634L1.88059 5.89219L0 5.89219L0 8.99109L1.88041 8.99109L1.88041 17.9823L5.65237 17.9823L5.65237 8.99126L8.16312 8.99126L8.49497 5.89219L5.65237 5.89219Z"/>
+	</g>
+</svg>
