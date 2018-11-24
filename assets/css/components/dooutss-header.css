@@ -1,9 +1,17 @@
-.dooutss-header{
-    position: relative;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 100%;
-    padding: 10px 100px;
-    background-color: aquamarine;
+.dooutss-header {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: var(--spacing-very) var(--spacing-container-left);
+  background-color: aquamarine;
+}
+@media screen and (min-width: 768px) {
+  .dooutss-header {
+    flex-direction: row;
+  }
 }
