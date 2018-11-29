@@ -84,6 +84,7 @@
   .dooutss-navigation {
     display: flex;
     min-width: 40%;
+    transform: translateY(0);
   }
 }
 .dooutss-navigation > .items {

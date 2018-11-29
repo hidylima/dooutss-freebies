@@ -1,16 +1,12 @@
 html {
-  font-size: 62.5%; 
+  font-size: 50%;
   height: 100%;
 }
-/* Medium screens (640px)
-@media (min-width: 40rem) {
-  html { font-size: 112%; }
-}
 
-/* Large screens (1024px) */
-/* @media (min-width: 64rem) {
-  html { font-size: 120%; }
-} */ */
+/* Medium screens (640px) */
+@media (min-width: 30rem) {
+  html { font-size: 62.5%; }
+}
 
 body {
   min-height: 100vh;

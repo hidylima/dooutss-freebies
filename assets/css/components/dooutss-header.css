@@ -8,7 +8,7 @@
   width: 100%;
   height: 60px;
   padding: var(--spacing-very) var(--spacing-container-left);
-  background-color: aquamarine;
+  background-color: transparent;
 }
 @media screen and (min-width: 768px) {
   .dooutss-header {
