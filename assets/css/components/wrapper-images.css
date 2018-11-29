@@ -1,0 +1,5 @@
+.wrapper-images{
+    flex: 0 1 50%;
+    width: 50%;
+    display: none;
+}

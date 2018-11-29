@@ -1,0 +1,21 @@
+.wrapper-information{
+    flex: 0 0 100%;
+    width: 100%;
+}
+.wrapper-information .title{
+ max-width: 350px;
+ color: var(--color-zero);
+ font-size: 3.6rem;
+ margin-bottom: var(--spacing-small);
+}
+.wrapper-information .subtitle{
+    max-width: 450px;
+    color: var(--color-zero);
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+    margin-bottom: var
+    (--spacing-small);
+}
+.wrapper-information .btn{
+
+}
