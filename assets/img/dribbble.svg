@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40">
-	<defs>
-		<image id="img_0" width="82" height="82" xlink:href="data:image/png;base64,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"/>
-	</defs>
+	<clipPath id="clip_0">
+			<rect x="-170" y="-601" width="1280" height="780" clip-rule="evenodd"/>
+		</clipPath>
 	<defs>
 		<clipPath id="clip_0">
 			<rect x="-231" y="-601" width="1280" height="780" clip-rule="evenodd"/>
@@ -15,10 +15,7 @@
 		<clipPath id="clip_1">
 			<rect x="-231" y="-601" width="1280" height="780" clip-rule="evenodd"/>
 		</clipPath>
-		<linearGradient id="gradient_0" gradientUnits="userSpaceOnUse" x1="40" y1="20" x2="0" y2="20">
-			<stop offset="0" stop-color="rgb(32,210,220)"/>
-			<stop offset="1" stop-color="rgb(112,175,249)"/>
-		</linearGradient>
+		
 	</defs>
 	<g clip-path="url(#clip_1)">
 		<path fill="url(#gradient_0)" stroke="none" d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"/>
