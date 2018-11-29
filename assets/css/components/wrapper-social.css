@@ -8,18 +8,23 @@
 .wrapper-social .networks {
     width: 40px;
     height: 40px;
-    padding: 20px;
+    padding: 10px;
     margin: 0 15px;
     border: 1px solid #fff;
     border-radius: 50%;
-    text-indent: -9999px;
 }
 
 .wrapper-social .social {
-    
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    background-position: center center;
 }
 
-.wrapper-social .social.-facebook {}
+.wrapper-social .social.-facebook {
+    background-image: url('../../img/facebook.svg');
+}
 
 .wrapper-social .social.-twitter {}
 
