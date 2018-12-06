@@ -1,5 +1,36 @@
-.wrapper-images{
-    flex: 0 1 50%;
-    width: 50%;
+.wrapper-images {
     display: none;
+
+}
+
+@media screen and (min-width: 900px) {
+    .wrapper-images {
+        display: flex;
+        justify-content: flex-end;
+        flex: 0 0 calc(50% - 25px);
+        width: calc(50% - 25px);
+        margin-left: 25px;
+    }
+}
+.wrapper-images .wrapper{
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-right: 150px;
+    
+}
+
+.wrapper-images .imagens{
+    display: inline-block;
+    box-shadow: 0px -3px 44px 0px rgba(0,0,0, .5);
+}
+.wrapper-images .imagens.-mcokup{
+    position: absolute;
+    bottom: 10%;
+    left: calc(50% - 10px);
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
 }

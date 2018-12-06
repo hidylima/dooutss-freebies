@@ -6,6 +6,14 @@
     width: 100%;
 }
 
+@media screen and (min-width: 900px) {
+    .wrapper-information {
+        flex: 0 0 calc(50% - 25px);
+        width: calc(50% - 25px);
+        margin-right: 25px;
+    }
+}
+
 .wrapper-information .title {
     width: 100%;
     max-width: 550px;
@@ -38,32 +46,47 @@
     color: #000;
     background-color: #fff;
     border-radius: 25px;
-    box-shadow: 0px 1px 1px 0px rgba(68, 68, 68, 0.8);
+    box-shadow: 0px 1px 1px 0px rgba(68, 68, 68, .8);
     cursor: pointer;
-}.wrapper-information .btn::after {
+    opacity: .8;
+}
+
+.wrapper-information .btn:hover {
+    opacity: 1;
+}
+
+.wrapper-information .btn::after {
     content: '';
     position: absolute;
     display: none;
     top: 25%;
     right: 5%;
+    width: 30px;
+    height: 20px;
     margin: auto;
     background-image: url('../../img/arrow.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    width: 30px;
-    height: 20px; 
+    transition: all 1s;
 }
-@media screen and (min-width: 380px){
-    .wrapper-information .btn{
+
+.wrapper-information .btn:hover::after {
+    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 380px) {
+    .wrapper-information .btn {
         text-align-last: left;
     }
-    .wrapper-information .btn::after{
+
+    .wrapper-information .btn::after {
         display: inline-block;
     }
 }
-@media screen and (min-width: 480px){
-    .wrapper-information .btn{
+
+@media screen and (min-width: 480px) {
+    .wrapper-information .btn {
         max-width: 400px;
     }
 }

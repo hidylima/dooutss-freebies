@@ -25,17 +25,20 @@
     margin: 0 15px; */
     
 }
+.wrapper-social .networks:hover > .social {
+    transform: rotate(360deg);
+}
 .wrapper-social .networks.-facebook:hover {
-    background: rgb(12, 31, 199);
+    background: #3b5999;
 }
 .wrapper-social .networks.-twitter:hover {
-    background: rgb(95, 133, 236);
+    background: #55acee;
 }
 .wrapper-social .networks.-dribble:hover {
-    background: rgb(97, 175, 238);
+    background: #ea4c89;
 }
 .wrapper-social .networks.-instragam:hover {
-    background: rgb(223, 10, 10);
+    background: #e4405f;
 }
 
 .wrapper-social .social {
@@ -63,7 +66,4 @@
 
 .wrapper-social .social.-instragam {
     background-image: url('../../img/instagram.svg');
-}
-.wrapper-social .networks:hover > .social {
-    transform: rotate(360deg);
 }
